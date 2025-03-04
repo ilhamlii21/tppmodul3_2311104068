@@ -34,19 +34,14 @@ namespace tppmodul3_2311104068
                 return "Kode pos tidak ditemukan";
             }
         }
-    }
 
-    class Program
-    {
-        static void Main()
+        public void MenampilkanSemuaKodePos()
         {
-            KodePos kodePos = new KodePos();
-
-            Console.Write("Masukkan nama kelurahan: ");
-            string inputKelurahan = Console.ReadLine();
-
-            string kode = kodePos.getKodePos(inputKelurahan);
-            Console.WriteLine($"Kode Pos untuk {inputKelurahan}: {kode}");
+            Console.WriteLine("\nDaftar Kelurahan dan Kode Pos:");
+            foreach (var item in tabelKodePos)
+            {
+                Console.WriteLine($"{item.Key}: {item.Value}");
+            }
         }
     }
 }
