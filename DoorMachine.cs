@@ -12,6 +12,8 @@ namespace tppmodul3_2311104068
     {
         private DoorState state;
 
+        public DoorState State => state;
+
         public DoorMachine()
         {
             state = DoorState.Terkunci;

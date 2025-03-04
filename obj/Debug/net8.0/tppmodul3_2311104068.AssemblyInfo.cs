@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tppmodul3_2311104068")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4072b75bb43af6b06b9f2596432916c4fdead250")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c7d9334a50bfa2bc271c0f41212df7a99c0e30d")]
 [assembly: System.Reflection.AssemblyProductAttribute("tppmodul3_2311104068")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tppmodul3_2311104068")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
